@@ -17,8 +17,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left:3%;
-    padding-right:3%;
+    padding-left:4%;
+    padding-right:4%;
     width: 100vw;
     box-sizing:border-box;
     background-color:rgba(20,21,25,255);
@@ -79,6 +79,11 @@ h2 {
     background-color:hsl(215, 18%, 23%);
     border: 0;
 }
+.button_hover>button:hover{
+    cursor:pointer;
+    background-color:hsl(25, 97%, 53%);
+    color:hsl(216, 12%, 8%);
+}
 
 button[type="submit"] {
     aspect-ratio: 7;
@@ -89,4 +94,7 @@ button[type="submit"] {
     background-color:hsl(25, 97%, 53%);
     letter-spacing:0.2rem;
     border:0;
+}
+button[type="submit"]:hover{
+    cursor: pointer;
 }
