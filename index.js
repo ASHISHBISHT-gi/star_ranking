@@ -7,10 +7,6 @@ const span = document.querySelector("span");
 body.removeChild(submition);
 let rating = 0;
 function star(button) {
-    console.log(buttons);
-    // console.log(parseInt(button.innerText));
-    // let counter=par
-    // button.classList.add="button_hover";
     rating = parseInt(button.innerText);
     for (let i = 0; i < parseInt(button.innerText); i++) {
         buttons[i].style.color = "black";
