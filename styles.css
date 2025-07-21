@@ -26,7 +26,7 @@ html {
 
 main {
     /* border: 1px solid red; */
-    padding: 1.5rem;
+    padding: 1.4rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@ h2 {
     border: 0;
 }
 
-button[type="submit"] {
+main>button{
     aspect-ratio: 7;
     border-radius: 2rem;
     font-family: "Overpass", sans-serif;
@@ -91,7 +91,7 @@ button[type="submit"] {
     border: 0;
 }
 
-button[type="submit"]:hover {
+main>button:hover {
     cursor: pointer;
 }
 
@@ -131,7 +131,8 @@ button[type="submit"]:hover {
     }
 
     main{
-        width:30%;
+        width:27%;
+        gap:1.32rem;
     }
     .submition{
         width:27%;
@@ -141,7 +142,7 @@ button[type="submit"]:hover {
     .submition>img{
         width:50%;
     }
-    button[type="submit"] {
+    main>button{
     aspect-ratio: 8;
 }
 
